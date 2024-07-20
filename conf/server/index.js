@@ -3,6 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
+  console.log("This server was hit");
   res.send("Hello World!");
 });
 
