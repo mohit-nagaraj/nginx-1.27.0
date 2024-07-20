@@ -1,1 +1,23 @@
 2024/07/19 20:10:44 [error] 3576#18424: *1 CreateFile() "E:\nginx-1.27.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/07/20 16:18:38 [error] 4612#15164: *1 "E:/Users/momo/site/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/07/20 16:18:39 [error] 4612#15164: *1 CreateFile() "E:/Users/momo/site/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2024/07/20 16:20:51 [error] 4612#15164: *4 "E:/Users/momo/site/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/07/20 16:21:30 [notice] 12012#4500: signal process started
+2024/07/20 16:21:46 [error] 4612#15164: *4 "E:/Users/momo/site/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/07/20 16:21:47 [error] 4612#15164: *4 "E:/Users/momo/site/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/07/20 16:21:48 [error] 4612#15164: *4 "E:/Users/momo/site/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/07/20 16:22:15 [error] 4612#15164: *4 "E:/Users/momo/site/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/07/20 16:22:19 [notice] 8944#14936: signal process started
+2024/07/20 16:22:28 [error] 4612#15164: *4 "E:/Users/momo/site/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/07/20 16:22:34 [error] 14776#17020: *1 CreateFile() "E:\nginx-1.27.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/07/20 16:24:18 [notice] 2672#13084: signal process started
+2024/07/20 16:26:05 [notice] 11460#6332: signal process started
+2024/07/20 16:27:32 [error] 4612#15164: *8 "E:/Users/momo/site/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/07/20 16:30:56 [notice] 1744#2416: signal process started
+2024/07/20 16:31:20 [notice] 8056#10516: signal process started
+2024/07/20 16:31:57 [error] 4612#15164: *11 "E:/Users/momo/site/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/07/20 16:32:06 [error] 14776#17020: *13 CreateFile() "E:\nginx-1.27.0/html/image.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /image.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/07/20 16:32:55 [error] 14776#17020: *13 CreateFile() "E:\nginx-1.27.0/html/image.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /image.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/07/20 16:33:47 [notice] 4512#4292: signal process started
+2024/07/20 16:34:07 [error] 14776#17020: *15 CreateFile() "E:\nginx-1.27.0/html/image.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /image.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/07/20 16:34:08 [error] 14776#17020: *15 CreateFile() "E:\nginx-1.27.0/html/image.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /image.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
