@@ -21,3 +21,20 @@
 2024/07/20 16:33:47 [notice] 4512#4292: signal process started
 2024/07/20 16:34:07 [error] 14776#17020: *15 CreateFile() "E:\nginx-1.27.0/html/image.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /image.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
 2024/07/20 16:34:08 [error] 14776#17020: *15 CreateFile() "E:\nginx-1.27.0/html/image.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /image.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/07/20 19:15:59 [emerg] 17176#19016: unexpected "}" in E:\nginx-1.27.0/conf/nginx.conf:30
+2024/07/20 19:16:09 [emerg] 16228#16492: unexpected "}" in E:\nginx-1.27.0/conf/nginx.conf:30
+2024/07/20 19:17:38 [emerg] 4092#18036: "alias" directive is duplicate, "root" directive was specified earlier in E:\nginx-1.27.0/conf/nginx.conf:34
+2024/07/20 19:17:55 [emerg] 12576#19332: invalid number of arguments in "try_files" directive in E:\nginx-1.27.0/conf/nginx.conf:38
+2024/07/20 19:19:55 [notice] 10072#16928: signal process started
+2024/07/20 19:19:55 [error] 10072#16928: OpenEvent("Global\ngx_reload_8816") failed (2: The system cannot find the file specified)
+2024/07/20 19:24:01 [notice] 11892#11056: signal process started
+2024/07/20 19:24:17 [error] 2028#15740: *1 CreateFile() "E:\nginx-1.27.0/html/image.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /image.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2024/07/20 19:24:17 [error] 2028#15740: *1 CreateFile() "E:\nginx-1.27.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2024/07/20 19:24:47 [error] 2028#15740: *4 CreateFile() "E:\nginx-1.27.0/html/fruits" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /fruits HTTP/1.1", host: "localhost:8080"
+2024/07/20 19:25:45 [notice] 10820#1776: signal process started
+2024/07/20 19:25:52 [error] 2028#15740: *7 CreateFile() "E:\nginx-1.27.0/html/items/fruits" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /fruits/ HTTP/1.1", host: "localhost:8080"
+2024/07/20 19:26:10 [error] 2028#15740: *10 CreateFile() "E:\nginx-1.27.0/html/count/style.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /count/style.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/count/1"
+2024/07/20 19:26:10 [error] 2028#15740: *10 CreateFile() "E:\nginx-1.27.0/html/count/image.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /count/image.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/count/1"
+2024/07/20 19:26:37 [error] 2028#15740: *16 CreateFile() "E:/items/carbs" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /carbs HTTP/1.1", host: "localhost:8080"
+2024/07/20 19:27:28 [error] 2028#15740: *22 CreateFile() "E:\nginx-1.27.0/html/count/style" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /number/style.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/number/1"
+2024/07/20 19:27:28 [error] 2028#15740: *22 CreateFile() "E:\nginx-1.27.0/html/count/image" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /number/image.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/number/1"
